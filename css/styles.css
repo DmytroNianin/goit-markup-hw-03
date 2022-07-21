@@ -163,8 +163,8 @@ ol {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -174,7 +174,7 @@ ol {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 200px;
+
   margin-bottom: 30px;
 }
 .hero-btn {
@@ -191,7 +191,6 @@ ol {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   display: inline-block;
-  margin-bottom: 200px;
   padding: 10px 32px;
 }
 
@@ -244,8 +243,7 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-black);
-  /* padding-bottom: 50px; */
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .about-img-list {
@@ -256,8 +254,8 @@ ol {
 
 .team {
   background-color: #f5f4fa;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
   font-weight: 700;
@@ -266,13 +264,12 @@ ol {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color-black);
-  padding-top: 94px;
+
   margin-bottom: 50px;
 }
 .team-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 .team-item {
   width: 270px;
@@ -300,6 +297,8 @@ ol {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -309,7 +308,6 @@ ol {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-hover-color);
-  padding-top: 60px;
   display: inline-block;
   margin-bottom: 20px;
   padding-bottom: 10px;
@@ -354,7 +352,6 @@ ol {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   display: block;
-  padding-bottom: 60px;
 }
 
 .footer-mail:hover,
@@ -392,6 +389,7 @@ ol {
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
+  padding: 6px 22px;
 }
 
 .portfolio-btn:hover,
